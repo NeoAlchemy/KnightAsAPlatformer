@@ -1,0 +1,210 @@
+{
+    "id": "b685c081-ee5f-4b67-b583-415922c9e2c4",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "compilerOutputLanguage": "TYPE_SCRIPT"
+    },
+    "displayList": [
+        {
+            "prefabId": "07badefd-0cb6-4fc1-acb1-926f7dce75cb",
+            "id": "ec0a3e4c-a4c8-426a-a022-1c2e1b38e50c",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "heroKnight",
+            "scope": "CLASS",
+            "components": [],
+            "x": 100,
+            "y": 400
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "20c2f97f-b6f9-41cb-af9e-1f74fd8e334e",
+            "label": "GroundLevel",
+            "scope": "CLASS",
+            "components": [],
+            "y": 536,
+            "tilemapId": "5b8004c4-fb72-4b37-9821-c3a4ae6a7c17",
+            "layerName": "Ground Level",
+            "tilesets": [
+                "GrasslandTileset"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "81cdc448-cf5d-4799-81b4-2b84599b8017",
+            "label": "background_1",
+            "components": [],
+            "y": 536,
+            "tilemapId": "57679658-54d6-4a96-b95d-bb2e0111af45",
+            "layerName": "Background",
+            "tilesets": [
+                "GrasslandTileset"
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "ce68cbb5-b0f9-4326-b654-6b8fa64c4a4d",
+            "label": "clouds1",
+            "components": [],
+            "texture": {
+                "key": "clouds1"
+            },
+            "x": 169,
+            "y": 111
+        },
+        {
+            "type": "Image",
+            "id": "9212880e-e159-4f4e-9dd1-20ead701f323",
+            "label": "clouds2",
+            "components": [],
+            "texture": {
+                "key": "clouds2"
+            },
+            "x": 502,
+            "y": 190
+        },
+        {
+            "type": "Image",
+            "id": "2bbd7f86-7f2a-4fb5-ba0f-a2795de06616",
+            "label": "clouds3",
+            "components": [],
+            "texture": {
+                "key": "clouds3"
+            },
+            "x": 795,
+            "y": 103
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "2acca79c-7ed6-419e-91b7-17038c4af190",
+            "label": "heart",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "staticHeart"
+            },
+            "x": 286,
+            "y": 521,
+            "body.width": 15,
+            "body.height": 15,
+            "body.offset.x": 5,
+            "body.offset.y": 5
+        },
+        {
+            "type": "Text",
+            "id": "bffce3f4-7017-4e9a-aebe-ef10bdecd41b",
+            "label": "LivesStaticText",
+            "scope": "CLASS",
+            "components": [],
+            "x": 15,
+            "y": 20,
+            "text": "Lives Remaining:"
+        },
+        {
+            "type": "Text",
+            "id": "6acd467b-9e53-4cc6-a46a-1baa91a3be39",
+            "label": "livesCountStaticText",
+            "scope": "CLASS",
+            "components": [],
+            "x": 173,
+            "y": 21,
+            "text": "0"
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "896498a5-03c2-4cb6-880b-0fb819b66e3d",
+            "label": "EvilWizard",
+            "scope": "CLASS",
+            "components": [
+                "EvilWizardAI",
+                "LowLevelEnemyAI"
+            ],
+            "LowLevelEnemyAI.heroKnight": "heroKnight",
+            "texture": {
+                "key": "EvilWizard"
+            },
+            "x": 848,
+            "y": 382,
+            "flipX": true,
+            "body.velocity.y": 100,
+            "body.width": 100,
+            "body.height": 90,
+            "body.offset.x": 75,
+            "body.offset.y": 75
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "27403812-0778-445c-9adc-62a0872c5825",
+            "type": "Tilemap",
+            "label": "levelOne",
+            "key": "LevelOne",
+            "tilesets": [
+                {
+                    "name": "GrasslandTileset",
+                    "imageKey": "GrasslandTileset"
+                }
+            ]
+        },
+        {
+            "id": "0e55f419-2d8c-43d1-b7ae-7b6e9f100b8e",
+            "type": "Keyboard.Key",
+            "label": "AttackKey"
+        },
+        {
+            "id": "2f395a11-eb37-4d6b-aaea-d9ae243ada30",
+            "type": "Keyboard.Key",
+            "label": "JumpKey",
+            "keyCode": "UP"
+        },
+        {
+            "id": "f2f7e450-1ef5-4727-8549-431e3f71a103",
+            "type": "Keyboard.Key",
+            "label": "RunRightKey",
+            "keyCode": "RIGHT"
+        },
+        {
+            "id": "5b8004c4-fb72-4b37-9821-c3a4ae6a7c17",
+            "type": "Tilemap",
+            "label": "levelOne_1",
+            "key": "LevelOne",
+            "tilesets": [
+                {
+                    "name": "GrasslandTileset",
+                    "imageKey": "GrasslandTileset"
+                }
+            ]
+        },
+        {
+            "id": "57679658-54d6-4a96-b95d-bb2e0111af45",
+            "type": "Tilemap",
+            "label": "levelOne_2",
+            "key": "LevelOne",
+            "tilesets": [
+                {
+                    "name": "GrasslandTileset",
+                    "imageKey": "GrasslandTileset"
+                }
+            ]
+        },
+        {
+            "id": "67f5e8d3-7f1d-4f2a-a9c0-148c759a2fb7",
+            "type": "Keyboard.Key",
+            "label": "RunLeftKey",
+            "keyCode": "LEFT"
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

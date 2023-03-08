@@ -1,0 +1,289 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/clouds1.png",
+                "type": "image",
+                "key": "clouds1"
+            },
+            {
+                "url": "assets/clouds2.png",
+                "type": "image",
+                "key": "clouds2"
+            },
+            {
+                "url": "assets/clouds3.png",
+                "type": "image",
+                "key": "clouds3"
+            },
+            {
+                "url": "assets/EvilWizard.png",
+                "type": "image",
+                "key": "EvilWizard"
+            },
+            {
+                "url": "assets/EvilWizardAnimations.json",
+                "type": "animation",
+                "key": "EvilWizardAnimations"
+            },
+            {
+                "url": "assets/EW Attack1.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 250,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "EW Attack1"
+            },
+            {
+                "url": "assets/EW Attack2.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 250,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "EW Attack2"
+            },
+            {
+                "url": "assets/EW Death.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 250,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "EW Death"
+            },
+            {
+                "url": "assets/EW Fall.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 250,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "EW Fall"
+            },
+            {
+                "url": "assets/EW Idle.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 250,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "EW Idle"
+            },
+            {
+                "url": "assets/EW Jump.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 250,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "EW Jump"
+            },
+            {
+                "url": "assets/EW Run.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 250,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "EW Run"
+            },
+            {
+                "url": "assets/EW Take hit.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 250,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "EW Take hit"
+            },
+            {
+                "url": "assets/GrasslandTileset.png",
+                "type": "image",
+                "key": "GrasslandTileset"
+            },
+            {
+                "url": "assets/Heart.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Heart"
+            },
+            {
+                "url": "assets/Hero Knight Attack1.png",
+                "frameConfig": {
+                    "frameWidth": 180,
+                    "frameHeight": 180,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Hero Knight Attack1"
+            },
+            {
+                "url": "assets/Hero Knight Attack2.png",
+                "frameConfig": {
+                    "frameWidth": 180,
+                    "frameHeight": 180,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Hero Knight Attack2"
+            },
+            {
+                "url": "assets/Hero Knight Death.png",
+                "frameConfig": {
+                    "frameWidth": 180,
+                    "frameHeight": 180,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Hero Knight Death"
+            },
+            {
+                "url": "assets/Hero Knight Fall.png",
+                "frameConfig": {
+                    "frameWidth": 180,
+                    "frameHeight": 180,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Hero Knight Fall"
+            },
+            {
+                "url": "assets/Hero Knight Idle.png",
+                "frameConfig": {
+                    "frameWidth": 180,
+                    "frameHeight": 180,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Hero Knight Idle"
+            },
+            {
+                "url": "assets/Hero Knight Jump.png",
+                "frameConfig": {
+                    "frameWidth": 180,
+                    "frameHeight": 180,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Hero Knight Jump"
+            },
+            {
+                "url": "assets/Hero Knight Run.png",
+                "frameConfig": {
+                    "frameWidth": 180,
+                    "frameHeight": 180,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Hero Knight Run"
+            },
+            {
+                "url": "assets/Hero Knight Take Hit.png",
+                "frameConfig": {
+                    "frameWidth": 180,
+                    "frameHeight": 180,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Hero Knight Take Hit"
+            },
+            {
+                "url": "assets/HeroKnight.png",
+                "type": "image",
+                "key": "HeroKnight"
+            },
+            {
+                "url": "/HeroKnightAnimations.json",
+                "type": "animation",
+                "key": "HeroKnightAnimations"
+            },
+            {
+                "url": "assets/ItemAnimations.json",
+                "type": "animation",
+                "key": "ItemAnimations"
+            },
+            {
+                "url": "assets/LevelOne.json",
+                "type": "tilemapTiledJSON",
+                "key": "LevelOne"
+            },
+            {
+                "url": "assets/staticHeart.png",
+                "type": "image",
+                "key": "staticHeart"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

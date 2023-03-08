@@ -1,0 +1,72 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "LevelOne.json",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "exportAsImage.drawObjectLabels": true,
+    "exportAsImage.drawTileGrid": true,
+    "exportAsImage.includeBackgroundColor": true,
+    "exportAsImage.useCurrentScale": true,
+    "fileStates": {
+        "": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "GrasslandTileset.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "LevelOne.json": {
+            "scale": 0.9074479166666666,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 409.9408827412043,
+                "y": 71.62945531768355
+            }
+        },
+        "LevelOne.json#GrasslandTileset": {
+            "scaleInDock": 1
+        },
+        "LevelOne.tmx": {
+            "scale": 0.9,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 396.1111111111111,
+                "y": 65.5555555555556
+            }
+        },
+        "LevelOne.tmx#GrasslandTileset": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "/Users/ryanzielke/Documents/GitHub/ZeldaAsAPlatformer/tiled",
+    "last.externalTilesetPath": "/Users/ryanzielke/Documents/GitHub/ZeldaAsAPlatformer/tiled",
+    "last.imagePath": "/Users/ryanzielke/Documents/GitHub/ZeldaAsAPlatformer/tiled",
+    "map.height": 10,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.orientation": null,
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 60,
+    "openFiles": [
+        "LevelOne.json"
+    ],
+    "project": "ZeldaPlatformerTiledProject.tiled-project",
+    "recentFiles": [
+        "LevelOne.json",
+        "LevelOne.tmx",
+        "GrasslandTileset.tsx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
