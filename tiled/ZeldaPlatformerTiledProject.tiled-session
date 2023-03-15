@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "LevelOne.json",
+    "activeFile": "",
     "expandedProjectPaths": [
         "."
     ],
@@ -54,7 +54,6 @@
     "map.tileWidth": 16,
     "map.width": 60,
     "openFiles": [
-        "LevelOne.json"
     ],
     "project": "ZeldaPlatformerTiledProject.tiled-project",
     "recentFiles": [

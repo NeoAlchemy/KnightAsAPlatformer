@@ -258,7 +258,7 @@
                 "key": "HeroKnight"
             },
             {
-                "url": "/HeroKnightAnimations.json",
+                "url": "assets/HeroKnightAnimations.json",
                 "type": "animation",
                 "key": "HeroKnightAnimations"
             },
